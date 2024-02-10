@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shrushti- Developer Portfolio</title>
+    <link rel="stylesheet" href="about.css">
+    <link rel="stylesheet" href="contact.css">
+    <style>
+        /* Resetting default margin and padding for all elements */
+        *{
+            margin:0;
+            padding:0;
+        }
+
+        /* Styling the body */
+        body{
+            background-color: rgb(37, 1, 37);
+            color:white;
+            font-family:'Poppins',sans-serif;
+        }
+
+        /* Styling the navigation bar */
+        nav{
+            display:flex;
+            justify-content: space-around;
+            align-items:center; /* Corrected typo 'centre' to 'center' */
+            height:100px;
+            background-color: rgb(29, 9, 29);
+        }
+
+        /* Styling the navigation list */
+        nav ul{
+            display:flex; /*to define a flex container.*/
+            justify-content:center; /* Corrected typo 'centre' to 'center' */
+        }
+
+        /* Styling the left section of the navigation bar */
+        
+        /* Styling the navigation list items */
+        nav ul li{
+            text-decoration: none;
+            color:white;
+            list-style:none;
+            margin:0 30px;
+        }
+        nav ul li a{
+            text-decoration: none;
+            color:white;
+        }
+        nav ul li a:hover{
+            color:rgb(121, 42, 113);
+        }
+
+        .left{
+            font-size: 2rem;
+        }
+        /* Styling the first section of the main content */
+        .firstSection{
+            display:flex;
+            justify-content:space-around;
+            margin: 80px  0;
+        }
+        .firstSection > div{
+                width:30%;
+
+        }
+
+        /* Styling the left section of the main content */
+        .leftSection{
+           
+            width:30px;
+            font-size: 2rem;
+            margin: 30px 0;
+        }
+        .rightSection img{
+            
+            width:90% ;
+            margin:60px 0;
+        }
+        .purple{
+            color:rgb(141, 47, 110);
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <!-- Navigation bar -->
+        <nav>
+            <div class="left">Shrushti's Portfolio</div>
+            <div class="right">
+                <div class="header__logo-container">
+                    
+                    </div>
+                    
+                  </div>
+                <ul>
+                    <a href="/"><li>Home</li></a>
+                    <a href="projects.html"><li>My Projects</li></a>
+                    <a href="about.html"><li>About</li></a>
+                    <a href="contact.html"><li>Contact</li></a>
+                
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <!-- First section of the main content -->
+        <section class="firstSection">
+            <!-- Left section in the main content -->
+            <div class="leftSection">
+                Hello,I am <span class="purple"> Shrushti Ganorkar</span>
+                <div>and I am a passionate Web Devloper.</div>
+            </div>
+
+            <div class="rightSection">
+                <img src="" alt="">
+            
+            </div>
+            </section>
+            <!-- Add your content for the main section here -->
+        </section>
+    </main>
+</body>
+</html>

@@ -1,0 +1,67 @@
+/* Reset some default margin and padding for consistency */
+body, h1, h2, h3, p, img, a {
+    margin: 0;
+    padding: 0;
+
+}
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh; /* Ensure full viewport height for centering */
+    margin: 0;
+}
+
+/* Apply a box-sizing border-box model for easier sizing */
+* {
+    box-sizing: border-box;
+}
+
+/* Style for the project container */
+.project {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid #ddd; /* Add a border for visualization */
+    margin: 10px; /* Add some margin for spacing */
+    padding: 15px;
+    
+    width: 50%; /* Adjust the width as needed */
+    margin-top: 50px;
+     /* Add padding for spacing inside the container */
+}
+
+/* Style for the project image */
+.project-image img {
+    max-width: 100%; /* Make sure the image doesn't exceed its container */
+    height: auto; /* Maintain aspect ratio */
+}
+
+/* Style for the project info */
+.project-info {
+    margin-top: 15px; /* Add margin at the top of the project info */
+}
+
+.project-info h3 {
+    font-size: 1.5em; /* Adjust the heading size */
+    margin-bottom: 10px; /* Add margin at the bottom of the heading */
+}
+
+.project-info p {
+    line-height: 1.4; /* Adjust the line height for better readability */
+    color: #555; /* Set text color */
+}
+
+.project-info a {
+    display: inline-block;
+    margin-top: 10px; /* Add margin at the top of the link */
+    padding: 8px 15px; /* Add padding for the link */
+    background-color: #007bff; /* Set background color for the link */
+    color: #fff; /* Set text color for the link */
+    text-decoration: none; /* Remove underline */
+    border-radius: 5px; /* Add border-radius for rounded corners */
+    transition: background-color 0.3s ease; /* Add a smooth transition effect */
+}
+
+.project-info a:hover {
+    background-color: #0056b3; /* Change background color on hover */
+}

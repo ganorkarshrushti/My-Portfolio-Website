@@ -1,0 +1,98 @@
+/* about.css */
+
+#about {
+  background-color: rgb(60, 1, 60), 248, 250; /* Set the background color */
+  padding: 60px 0; /* Adjust the padding as needed */
+  font-size: 35px; 
+  text-align: center; /* Center the text */
+}
+/* about.css */
+body {
+  background-color: rgb(57, 1, 57); /* Set the background color to purple */
+  margin: 0; /* Remove default margin */
+  padding: 0; /* Remove default padding */
+}
+.section-title {
+  font-size: 45px;
+  font-weight: 700;
+  margin-bottom: 40px;
+  color: #f5f1f1;  /* Set the title color */
+}
+.about-wrapper {
+  align-items: center;
+  font-size: 34px;
+  text-align: center;  /* Center the text */
+}
+.about-wrapper__image {
+  text-align: center;
+}
+
+.img-fluid {
+  border-radius: 18px; /* Add rounded corners to the image */
+  box-shadow: 0 8px 12px rgba(17, 16, 16, 0.1); 
+  max-width: 70%;  
+  margin:0 auto; 
+}
+
+.about-wrapper__info {
+  padding-left: 40px;
+  text-align: center;
+ /* Adjust the padding as needed */
+}
+
+.about-wrapper__info-text {
+  font-size: 27px;
+  color: #f8f8f9; /* Set the text color */
+  margin-bottom: 20px;
+  align-items: center;
+  text-align: justify;
+  display: inline-block;
+  max-width: 800px;
+
+}
+/* Add this CSS to your stylesheet */
+.about__content-skills {
+  text-align: center;
+  color:white;
+}
+.skills {
+  display: inline-block;
+  text-align: left;
+  justify-content: center; /* Align individual skills to the left within the centered container */
+}
+/* Add this CSS to your stylesheet */
+.about__content-skills {
+  text-align: center;
+  color: white;                      
+}
+.skills {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.skills__skill-box {
+  margin: 10px;
+  padding: 15px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+.skills__skill {
+  margin: 0;
+  color: white; 
+}
+.cta-btn--resume {
+  display: inline-block;
+  font-size: 25px;
+  font-weight: 700;
+  text-align: center;
+  text-decoration: none;
+  padding: 15px 35px;
+  border-radius: 5px;
+  background-color: rgb(112, 2, 118);
+  color: #fff; /* Set the button text color */
+  transition: background-color 0.3s ease;
+}
+.cta-btn--resume:hover {
+  background-color: #62265a; /* Change button color on hover */
+}
